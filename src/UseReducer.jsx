@@ -16,9 +16,7 @@ const UseReducer = () => {
 
   return (
     <div>
-      <h1>
-        {state.count - 1} + 1 = {state.count}
-      </h1>
+      <h3>{state.count}</h3>
       <button
         onClick={() => {
           dispatch({ type: "INCREMENT" });

@@ -6,7 +6,7 @@ const UseState = () => {
   return (
     <div>
       <div>
-        <p>Clicked {count} times</p>
+        <h3>Clicked {count} times</h3>
         <button onClick={() => setCount(count + 1)}>Click Me</button>
       </div>
       <div>
@@ -16,7 +16,7 @@ const UseState = () => {
           value={inputValue}
           onChange={(event) => setInputValue(event.target.value)}
         />
-        <p>Welcome {inputValue}</p>
+        <h3>Welcome {inputValue}</h3>
       </div>
     </div>
   );
