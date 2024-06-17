@@ -1,3 +1,4 @@
+import UseEffect from "./UseEffect";
 import UseReducer from "./UseReducer";
 import UseState from "./UseState";
 
@@ -9,7 +10,10 @@ function App() {
         <UseState />
 
         <h1>useReducer</h1>
-        <UseReducer/>
+        <UseReducer />
+
+        <h1>useEffect</h1>
+        <UseEffect />
       </div>
     </>
   );
