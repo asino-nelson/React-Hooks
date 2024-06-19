@@ -1,3 +1,4 @@
+import Fetch from "./Fetch";
 import UseEffect from "./UseEffect";
 import UseReducer from "./UseReducer";
 import UseRef from "./UseRef";
@@ -18,6 +19,9 @@ function App() {
 
         <h1>useRef</h1>
         <UseRef />
+
+        <p>Fetch</p>
+        <Fetch/>
       </div>
     </>
   );
